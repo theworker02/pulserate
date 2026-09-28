@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/pulserate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pulse timestamps and rate durations for scripts and CI receipts.",
+  "bin": {
+    "pulserate": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/pulserate.git"
+  },
+  "homepage": "https://theworker02.github.io/pulserate/",
+  "keywords": [
+    "pulse",
+    "rate",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
